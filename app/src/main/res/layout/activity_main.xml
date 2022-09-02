@@ -23,30 +23,30 @@
 
 
     <EditText
-        android:id="@+id/mEdtNameSign"
+        android:id="@+id/mEdtName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="24dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="20dp"
         android:ems="10"
         android:hint="Name"
-        android:inputType="textEmailAddress"
+        android:inputType="textPersonName"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.221" />
+        app:layout_constraintVertical_bias="0.262" />
+
 
     <EditText
         android:id="@+id/mEdtEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="24dp"
         android:backgroundTint="@color/white"
         android:drawableLeft="@drawable/ic_baseline_email_24"
         android:drawablePadding="20dp"
@@ -57,8 +57,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303" />
-
+        app:layout_constraintVertical_bias="0.37" />
 
     <EditText
         android:id="@+id/mEdtPass"
@@ -66,19 +65,18 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:backgroundTint="@color/white"
-        android:ems="10"
-        android:hint="Password"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:drawablePadding="20dp"
+        android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         android:textColorHint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
-
+        app:layout_constraintVertical_bias="0.459" />
 
     <Button
         android:id="@+id/mBtnRegister"

@@ -45,7 +45,8 @@ class MainActivity : AppCompatActivity() {
     private var password = ""
 
     private fun validateData() {
-        name = binding.mEdtNameSign.text.toString().trim()
+
+        name = binding.mEdtName.text.toString().trim()
         email = binding.mEdtEmail.text.toString().trim()
         password = binding.mEdtPass.text.toString().trim()
 
